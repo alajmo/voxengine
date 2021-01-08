@@ -1,4 +1,4 @@
-export default function() {
+export default function () {
   return {
     title: 'Voxengine',
     author: 'Samir Alajmovic',
@@ -6,12 +6,9 @@ export default function() {
     url: 'https://github.com/alajmo/voxengine',
 
     paths: {
-      public: 'assets',
       content: 'content',
-      template: '/home/samir/projects/docs/themes/doc/template',
       output: 'site',
-      toc: './toc.md',
-      defaultTemplate: './pages/index.ts',
+      toc: './toc.md'
     },
 
     flags: {
@@ -26,5 +23,7 @@ export default function() {
     },
 
     custom: {},
+
+    hooks: {},
   };
 }

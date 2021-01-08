@@ -7,4 +7,7 @@
 
 # Documentation
 
-- [CLI Usage](usage/usage.md)
+---
+
+[Resources](resources.md)
+

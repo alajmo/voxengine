@@ -1,7 +1,3 @@
-layout: pages/index.ts
-key: resources
----
-
 - https://github.com/brundonsmith/life
 - https://marctenbosch.com/quaternions/
 - https://www.aseprite.org/
@@ -385,13 +381,10 @@ https://www.google.com/search?kgmid=/g/11dymxhd_p&hl=en-IN&q=Modeling+Life:+The+
 
 https://news.ycombinator.com/item?id=25557354
 https://news.ycombinator.com/item?id=25557354
-
 https://en.wikipedia.org/wiki/Data-oriented_design
 https://github.com/BSVino/JaiPrimer/blob/master/JaiPrimer.md#:~:text=Jai%20is%20a%20high%2Dlevel,Jai%20in%20late%20September%202014.
-
 https://www.google.com/search?q=path+tracing&oq=path+tracing&aqs=chrome..69i57j0l6j69i61.3073j0j7&sourceid=chrome&ie=UTF-8
-
 https://en.wikipedia.org/wiki/Physically_based_rendering
-
 https://github.com/hypernewbie/VEFontCache
+https://news.ycombinator.com/item?id=25675249
 

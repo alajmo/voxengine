@@ -1,7 +1,3 @@
-layout: pages/index.ts
-key: home
----
-
 Make a Voxel/Polygon engine, designing features as to maximize the type of game I'm making. Idea is to utilize existing research papers for implementing all the parts of the engine IDE. The idea is to build various procedural generation mechanism that enables one to create a rich world, and then modify the generated objects by hand. This should avoid the content creation bottleneck of one developer.
 
 Any voxel engine should have a good search functionality, and be keyboard based
