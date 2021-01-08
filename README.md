@@ -1,3 +1,3 @@
-# VexEngine
+# voxengine
 
 - http://raytracerchallenge.com/
