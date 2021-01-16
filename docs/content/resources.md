@@ -388,3 +388,45 @@ https://en.wikipedia.org/wiki/Physically_based_rendering
 https://github.com/hypernewbie/VEFontCache
 https://news.ycombinator.com/item?id=25675249
 
+
+https://www.youtube.com/watch?app=desktop&v=LAsnQoBUG4Q
+https://github.com/giordi91/SirEngineThe3rd
+https://bartwronski.com/2020/12/27/why-are-video-games-graphics-still-a-challenge-productionizing-rendering-algorithms/amp/?__twitter_impression=true
+http://c0de517e.blogspot.com/2020/12/why-raytracing-wont-simplify-aaa-real.html?m=1
+https://vulkan-tutorial.com/
+
+https://raytracing.github.io/books/RayTracingInOneWeekend.html
+https://surma.dev/things/ditherpunk/
+
+- https://gamephysicsweekend.github.io/
+- https://raytracing.github.io/
+
+https://iquilezles.org/www/articles/raymarchingdf/raymarchingdf.htm
+https://iquilezles.org/index.html
+https://gist.github.com/silvesthu/505cf0cbf284bb4b971f6834b8fec93d
+https://gist.github.com/silvesthu/505cf0cbf284bb4b971f6834b8fec93d
+https://twitter.com/AlanZucconi/status/1347958087081201666
+https://www.youtube.com/watch?v=1R5WFZk86kE
+
+https://iquilezles.org/index.html
+
+- http://raytracerchallenge.com/
+https://news.ycombinator.com/item?id=25675249
+
+https://shadered.org/
+
+https://twitter.com/wvo
+
+https://twitter.com/wvo/status/1349404384334028800
+
+https://www.gamingonlinux.com/2020/11/classic-foss-fps-cube-2-sauerbraten-sees-the-first-release-since-2013
+
+https://news.ycombinator.com/item?id=25756813
+
+https://trello.com/b/1yFqP8ZJ/vulkan-samples-requests
+
+https://github.com/khronosGroup/Vulkan-samples
+
+https://twitter.com/PierreTerdiman/status/1349851820617818113
+https://www.turtlebrains.com/documentation_0_3_1/
+https://www.youtube.com/watch?v=TCcGmyYFptM

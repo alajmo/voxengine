@@ -1,0 +1,665 @@
+
+    <!DOCTYPE html>
+    <html lang="en">
+      <head>
+        <meta charset="UTF-8" />
+        <meta name="description" rel="shortcut icon" content="" />
+
+        <link rel="icon" href="/assets/img/ico/favicon.ico" />
+        <link rel="apple-touch-icon-precomposed" href="/assets/img/ico/favicon.ico" />
+        <meta name="msapplication-TileImage" content="/assets/img/ico/favicon.ico" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+        <link rel="stylesheet" type="text/css" href="/assets/css/reset.css" />
+        <link rel="stylesheet" type="text/css" href="/assets/css/prism.css" />
+        <link rel="stylesheet" type="text/css" href="/assets/fonts/fonts.css" />
+        <link rel="stylesheet" type="text/css" href="/assets/css/variables.css" />
+        <link rel="stylesheet" type="text/css" href="/assets/css/tufte.css" />
+        <link rel="stylesheet" type="text/css" href="/assets/css/base.css" />
+      </head>
+
+      <body>
+        
+    <aside id="sidebar" class="sidebar" data-show="true">
+      <div class="sidebar-scroll">
+        <ol class="toc"><li class="part-title">Voxengine</li>
+      <li class="chapter-item">
+        <strong>1.</strong>
+        &nbsp;
+        <a class=""
+           href="/">About</a>
+      </li>
+    
+      <li class="chapter-item draft">
+        <strong>2.</strong>
+        &nbsp;
+        Install
+      </li>
+    
+      <li class="chapter-item draft">
+        <strong>3.</strong>
+        &nbsp;
+        Getting Start
+      </li>
+    <li class="part-title">Documentation</li><li class="spacer"></li><li><a class="active"  href="/resources">Resources</a></li></ol>
+      </div>
+    </aside>
+
+    <main id="content" class="content">
+      <div class="menu">
+          <button title="Toggle sidebar"
+                  type="button"
+                  class="icon-button"
+                  onclick="toggleSidebar()">
+            <img
+              class="menu-icon"
+              src="/assets/img/svg/menu.svg"
+              alt="menu"
+              width="auto"
+              height="20"
+            />
+          </button>
+      </div>
+
+      <div class="page">
+        <nav>
+          
+    <a href="/" id="page-nav-prev" class="page-nav page-nav-prev">
+      <img
+        class="page-nav-icon"
+        src="/assets/img/svg/chevron-left.svg"
+        alt="Previous chapter"
+        width="auto"
+        height="40"
+      />
+    </a>
+  
+          
+        </nav>
+
+        <div class="page-content">
+          <ul>
+<li>
+<p><a href="https://github.com/brundonsmith/life">https://github.com/brundonsmith/life</a></p>
+</li>
+<li>
+<p><a href="https://marctenbosch.com/quaternions/">https://marctenbosch.com/quaternions/</a></p>
+</li>
+<li>
+<p><a href="https://www.aseprite.org/">https://www.aseprite.org/</a></p>
+</li>
+<li>
+<p><a href="https://gamedev.stackexchange.com/questions/96014/what-is-vulkan-and-how-does-it-differ-from-opengl">https://gamedev.stackexchange.com/questions/96014/what-is-vulkan-and-how-does-it-differ-from-opengl</a></p>
+</li>
+<li>
+<p>C++ ECOSYSTEM COMPILERS IDES TOOLS TESTING <a href="https://news.ycombinator.com/item?id=21196107">https://news.ycombinator.com/item?id=21196107</a></p>
+</li>
+<li>
+<p>Creating a doom like game in <a href="https://www.youtube.com/watch?v=HQYsFshbkYw&amp;app=desktop">https://www.youtube.com/watch?v=HQYsFshbkYw&amp;app=desktop</a></p>
+</li>
+<li>
+<p>3D Programming <a href="https://www.jagregory.com/abrash-black-book/#mode-x-animation-in-action">https://www.jagregory.com/abrash-black-book/#mode-x-animation-in-action</a></p>
+</li>
+<li>
+<p>Non-euclidean engine <a href="https://www.youtube.com/watch?v=kEB11PQ9Eo8&amp;app=desktop">https://www.youtube.com/watch?v=kEB11PQ9Eo8&amp;app=desktop</a></p>
+</li>
+<li>
+<p>Pixel Engine <a href="https://www.youtube.com/watch?v=kRH6oJLFYxY&amp;app=desktop">https://www.youtube.com/watch?v=kRH6oJLFYxY&amp;app=desktop</a></p>
+</li>
+<li>
+<p>Procedurally generated maps or everything <a href="https://www.youtube.com/watch?v=WumyfLEa6bU">https://www.youtube.com/watch?v=WumyfLEa6bU</a></p>
+</li>
+<li>
+<p>Procedurally generated maps, <a href="https://www.youtube.com/watch?v=Z6lHExfem6U">https://www.youtube.com/watch?v=Z6lHExfem6U</a></p>
+</li>
+<li>
+<p>Programming 3D Engines <a href="https://www.youtube.com/watch?v=XgMWc6LumG4">https://www.youtube.com/watch?v=XgMWc6LumG4</a></p>
+</li>
+<li>
+<p>Programming 3D Engines <a href="https://www.youtube.com/watch?v=ih20l3pJoeU">https://www.youtube.com/watch?v=ih20l3pJoeU</a></p>
+</li>
+<li>
+<p>Shaders <a href="https://www.shadertoy.com">https://www.shadertoy.com</a></p>
+</li>
+<li>
+<p>Voxel engine <a href="https://github.com/JamesRandall/SimpleVoxelEngine">https://github.com/JamesRandall/SimpleVoxelEngine</a></p>
+</li>
+<li>
+<p>Voxel history <a href="https://www.gamedev.net/forums/topic/670673-20-years-of-voxel-engines-with-source-code/">https://www.gamedev.net/forums/topic/670673-20-years-of-voxel-engines-with-source-code/</a></p>
+</li>
+<li>
+<p>Vulkan <a href="https://www.khronos.org/news/press/khronos-releases-vulkan-1-0-specification">https://www.khronos.org/news/press/khronos-releases-vulkan-1-0-specification</a></p>
+</li>
+<li>
+<p><a href="http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.42.3443&amp;rep=rep1&amp;type=pdf">http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.42.3443&amp;rep=rep1&amp;type=pdf</a></p>
+</li>
+<li>
+<p><a href="https://alain.xyz/blog/raw-webgl">https://alain.xyz/blog/raw-webgl</a></p>
+</li>
+<li>
+<p><a href="https://blog.buschnick.net/2018/09/writing-voxel-engine-from-scratch-in.html">https://blog.buschnick.net/2018/09/writing-voxel-engine-from-scratch-in.html</a></p>
+</li>
+<li>
+<p><a href="https://en.wikipedia.org/wiki/L-system">https://en.wikipedia.org/wiki/L-system</a></p>
+</li>
+<li>
+<p><a href="https://ephtracy.github.io/#ss-carousel_ss">https://ephtracy.github.io/#ss-carousel_ss</a></p>
+</li>
+<li>
+<p><a href="https://github.com/Alan-FGR/minECS">https://github.com/Alan-FGR/minECS</a></p>
+</li>
+<li>
+<p><a href="https://github.com/Andersbakken/rtags">https://github.com/Andersbakken/rtags</a></p>
+</li>
+<li>
+<p><a href="https://github.com/nlohmann/json">https://github.com/nlohmann/json</a></p>
+</li>
+<li>
+<p><a href="https://github.com/skypjack/entt">https://github.com/skypjack/entt</a></p>
+</li>
+<li>
+<p><a href="https://jsantell.com/l-systems">https://jsantell.com/l-systems</a></p>
+</li>
+<li>
+<p><a href="https://sites.google.com/site/letsmakeavoxelengine/">https://sites.google.com/site/letsmakeavoxelengine/</a></p>
+</li>
+<li>
+<p><a href="https://twitter.com/tuxedolabs">https://twitter.com/tuxedolabs</a></p>
+</li>
+<li>
+<p><a href="https://vulkan-tutorial.com/Drawing_a_triangle/Graphics_pipeline_basics/Introduction">https://vulkan-tutorial.com/Drawing_a_triangle/Graphics_pipeline_basics/Introduction</a></p>
+</li>
+<li>
+<p><a href="https://www.cprogramming.com/tutorial/opengl_introduction.html">https://www.cprogramming.com/tutorial/opengl_introduction.html</a></p>
+</li>
+<li>
+<p><a href="https://www.gamasutra.com/blogs/MichaelKissner/20151027/257369/Writing_a_Game_Engine_from_Scratch__Part_1_Messaging.php">https://www.gamasutra.com/blogs/MichaelKissner/20151027/257369/Writing_a_Game_Engine_from_Scratch__Part_1_Messaging.php</a></p>
+</li>
+<li>
+<p><a href="https://www.gamasutra.com/blogs/TristanJung/20191206/355250/How_Do_Bullets_Work_in_Video_Games.php">https://www.gamasutra.com/blogs/TristanJung/20191206/355250/How_Do_Bullets_Work_in_Video_Games.php</a></p>
+</li>
+<li>
+<p><a href="https://www.khronos.org/vulkan/">https://www.khronos.org/vulkan/</a></p>
+</li>
+<li>
+<p><a href="https://www.reddit.com/r/Unity3D/comments/e8ltry/using_poisson_disk_to_generate_a_forest/">https://www.reddit.com/r/Unity3D/comments/e8ltry/using_poisson_disk_to_generate_a_forest/</a></p>
+</li>
+<li>
+<p><a href="https://www.reddit.com/r/Unity3D/comments/ec4k83/i_created_a_stylized_open_world_environment_to/">https://www.reddit.com/r/Unity3D/comments/ec4k83/i_created_a_stylized_open_world_environment_to/</a></p>
+</li>
+<li>
+<p><a href="https://www.reddit.com/r/Unity3D/comments/ed4v3o/ive_shown_off_some_explosions_recently_this_is/">https://www.reddit.com/r/Unity3D/comments/ed4v3o/ive_shown_off_some_explosions_recently_this_is/</a></p>
+</li>
+<li>
+<p><a href="https://www.reddit.com/r/VoxelGameDev/">https://www.reddit.com/r/VoxelGameDev/</a></p>
+</li>
+<li>
+<p><a href="https://www.reddit.com/r/VoxelGameDev/">https://www.reddit.com/r/VoxelGameDev/</a></p>
+</li>
+<li>
+<p><a href="https://www.reddit.com/r/VoxelGameDev/comments/cj8bed/want_to_learn_how_to_develop_a_voxel_game/">https://www.reddit.com/r/VoxelGameDev/comments/cj8bed/want_to_learn_how_to_develop_a_voxel_game/</a></p>
+</li>
+<li>
+<p><a href="https://www.reddit.com/r/VoxelGameDev/comments/cj8bed/want_to_learn_how_to_develop_a_voxel_game/">https://www.reddit.com/r/VoxelGameDev/comments/cj8bed/want_to_learn_how_to_develop_a_voxel_game/</a></p>
+</li>
+<li>
+<p><a href="https://www.reddit.com/r/VoxelGameDev/comments/cmsu9a/raytraced_voxel_engine/">https://www.reddit.com/r/VoxelGameDev/comments/cmsu9a/raytraced_voxel_engine/</a></p>
+</li>
+<li>
+<p><a href="https://www.reddit.com/r/VoxelGameDev/comments/cmsu9a/raytraced_voxel_engine/">https://www.reddit.com/r/VoxelGameDev/comments/cmsu9a/raytraced_voxel_engine/</a></p>
+</li>
+<li>
+<p><a href="https://www.youtube.com/watch?v=HQYsFshbkYw">https://www.youtube.com/watch?v=HQYsFshbkYw</a></p>
+</li>
+<li>
+<p><a href="https://www.youtube.com/watch?v=_oTzRjiVhiE">https://www.youtube.com/watch?v=_oTzRjiVhiE</a></p>
+</li>
+<li>
+<p><a href="https://www.youtube.com/watch?v=wHt5wcxIPcE&amp;list=PLUXvZMiAqNbK8jd7s52BIDtCbZnKNGp0P">https://www.youtube.com/watch?v=wHt5wcxIPcE&amp;list=PLUXvZMiAqNbK8jd7s52BIDtCbZnKNGp0P</a></p>
+</li>
+<li>
+<p><a href="https://www.youtube.com/watch?v=wWYRFwIHdJc">https://www.youtube.com/watch?v=wWYRFwIHdJc</a></p>
+</li>
+<li>
+<p><a href="https://xmake.io/#/">https://xmake.io/#/</a></p>
+</li>
+<li>
+<p>[An isometric city builder in JavaScript]<a href="https://github.com/victorqribeiro/isocity()">https://github.com/victorqribeiro/isocity()</a></p>
+</li>
+<li>
+<p><a href="https://www.reddit.com/r/Unity3D/comments/eiz5vg/im_working_on_some_procedurally_animated_robot/">https://www.reddit.com/r/Unity3D/comments/eiz5vg/im_working_on_some_procedurally_animated_robot/</a></p>
+</li>
+<li>
+<p><a href="https://www.reddit.com/r/Unity3D/comments/ej01ch/procedural_islands_and_seasons_terramancer/">https://www.reddit.com/r/Unity3D/comments/ej01ch/procedural_islands_and_seasons_terramancer/</a></p>
+</li>
+<li>
+<p>Voxel engine <a href="https://github.com/s-macke/VoxelSpace/blob/master/README.md">https://github.com/s-macke/VoxelSpace/blob/master/README.md</a></p>
+</li>
+<li>
+<p>Deform ground <a href="https://www.reddit.com/r/Unity3D/comments/enuy2h/simple_grenade_with_mesh_deformation/">https://www.reddit.com/r/Unity3D/comments/enuy2h/simple_grenade_with_mesh_deformation/</a></p>
+</li>
+<li>
+<p><a href="https://www.reddit.com/user/DaniiDev/">https://www.reddit.com/user/DaniiDev/</a></p>
+</li>
+<li>
+<p><a href="https://www.reddit.com/r/Unity3D/comments/eojj6v/im_making_a_game_with_procedurally_animated/">https://www.reddit.com/r/Unity3D/comments/eojj6v/im_making_a_game_with_procedurally_animated/</a></p>
+</li>
+<li>
+<p><a href="https://www.alanzucconi.com/2017/04/17/procedural-animations/">https://www.alanzucconi.com/2017/04/17/procedural-animations/</a></p>
+</li>
+<li>
+<p><a href="https://www.allenchou.net/2020/01/dot-product-projection-reflection/">https://www.allenchou.net/2020/01/dot-product-projection-reflection/</a></p>
+</li>
+<li>
+<p><a href="https://www.reddit.com/r/Unity3D/comments/et9l1a/a_scene_from_a_game_im_working_on_with_usemiwalter/">https://www.reddit.com/r/Unity3D/comments/et9l1a/a_scene_from_a_game_im_working_on_with_usemiwalter/</a></p>
+</li>
+<li>
+<p>Make a sandbox tivoli on a square like <a href="https://www.reddit.com/r/Unity3D/comments/ete5w2/some_experiments_with_the_linerenderer/">https://www.reddit.com/r/Unity3D/comments/ete5w2/some_experiments_with_the_linerenderer/</a></p>
+</li>
+<li>
+<p><a href="https://www.fasterthan.life/blog/2017/7/11/i-am-graphics-and-so-can-you-part-2-intuition">https://www.fasterthan.life/blog/2017/7/11/i-am-graphics-and-so-can-you-part-2-intuition</a></p>
+</li>
+<li>
+<p><a href="https://www.reddit.com/r/Unity3D/comments/exs7o3/it_isnt_much_compared_to_other_stuff_on_the_sub/">https://www.reddit.com/r/Unity3D/comments/exs7o3/it_isnt_much_compared_to_other_stuff_on_the_sub/</a></p>
+</li>
+<li>
+<p>Build terrain like (procedurally generated), hamburger slice like: <a href="https://www.reddit.com/r/Unity3D/comments/f58u4m/procedurally_generated_islands_for_a_new_game_im/">https://www.reddit.com/r/Unity3D/comments/f58u4m/procedurally_generated_islands_for_a_new_game_im/</a></p>
+</li>
+<li>
+<p><a href="https://www.reddit.com/r/Unity3D/comments/f5bawh/shooting_regenerating_robot_insects/">https://www.reddit.com/r/Unity3D/comments/f5bawh/shooting_regenerating_robot_insects/</a></p>
+</li>
+<li>
+<p><a href="https://news.developer.nvidia.com/ray-tracing-essentials-part-1-basics-of-ray-tracing/">https://news.developer.nvidia.com/ray-tracing-essentials-part-1-basics-of-ray-tracing/</a></p>
+</li>
+<li>
+<p><a href="https://news.ycombinator.com/item?id=22346380">https://news.ycombinator.com/item?id=22346380</a></p>
+</li>
+<li>
+<p>Cartoon shaders <a href="https://www.reddit.com/r/Unity3D/comments/f5qnf9/i_started_making_bitesized_tutorials_on_various/">https://www.reddit.com/r/Unity3D/comments/f5qnf9/i_started_making_bitesized_tutorials_on_various/</a></p>
+</li>
+<li>
+<p><a href="https://www.reddit.com/r/Unity3D/comments/f6rgrw/happy_to_get_the_blend_between_ragdoll_physics/">https://www.reddit.com/r/Unity3D/comments/f6rgrw/happy_to_get_the_blend_between_ragdoll_physics/</a></p>
+</li>
+<li>
+<p><a href="https://www.reddit.com/r/Unity3D/comments/f6y4y7/finally_made_an_fps_controller_of_my_own/">https://www.reddit.com/r/Unity3D/comments/f6y4y7/finally_made_an_fps_controller_of_my_own/</a></p>
+</li>
+<li>
+<p><a href="https://www.reddit.com/r/Unity3D/comments/f70hd1/physicallyaware_explosions_in_unity/">https://www.reddit.com/r/Unity3D/comments/f70hd1/physicallyaware_explosions_in_unity/</a></p>
+</li>
+<li>
+<p><a href="https://www.reddit.com/r/Unity3D/comments/f73npw/i_went_with_your_suggestions_and_toned_down_the/">https://www.reddit.com/r/Unity3D/comments/f73npw/i_went_with_your_suggestions_and_toned_down_the/</a></p>
+</li>
+<li>
+<p><a href="https://www.reddit.com/r/Unity3D/comments/f8hgkd/procedural_animation_is_so_satisfying/">https://www.reddit.com/r/Unity3D/comments/f8hgkd/procedural_animation_is_so_satisfying/</a></p>
+</li>
+<li>
+<p>CUSTOM GAME ENGINES: A Small Study <a href="https://gist.github.com/raysan5/909dc6cf33ed40223eb0dfe625c0de74">https://gist.github.com/raysan5/909dc6cf33ed40223eb0dfe625c0de74</a></p>
+</li>
+<li>
+<p><a href="https://news.ycombinator.com/item?id=22965078">https://news.ycombinator.com/item?id=22965078</a></p>
+</li>
+<li>
+<p>Engine Stuff blog <a href="https://www.michaelfogleman.com/projects/">https://www.michaelfogleman.com/projects/</a> <a href="https://twitter.com/FogleBird">https://twitter.com/FogleBird</a></p>
+</li>
+<li>
+<p><a href="https://news.ycombinator.com/item?id=22965078">https://news.ycombinator.com/item?id=22965078</a></p>
+</li>
+<li>
+<p><a href="https://gist.github.com/raysan5/909dc6cf33ed40223eb0dfe625c0de74">https://gist.github.com/raysan5/909dc6cf33ed40223eb0dfe625c0de74</a></p>
+</li>
+<li>
+<p><a href="http://aosabook.org/en/500L/a-3d-modeller.html">http://aosabook.org/en/500L/a-3d-modeller.html</a></p>
+</li>
+<li>
+<p><a href="https://github.com/mithi/hexapod-robot-simulator">https://github.com/mithi/hexapod-robot-simulator</a></p>
+</li>
+</ul>
+<p>WGPU-rs on the web</p>
+<ul>
+<li>
+<p><a href="https://news.ycombinator.com/item?id=22941224">https://news.ycombinator.com/item?id=22941224</a></p>
+</li>
+<li>
+<p><a href="https://github.com/gfx-rs/gfx">https://github.com/gfx-rs/gfx</a></p>
+</li>
+</ul>
+<p><a href="https://news.ycombinator.com/item?id=23079200">https://news.ycombinator.com/item?id=23079200</a>
+<a href="https://news.ycombinator.com/item?id=23140780">https://news.ycombinator.com/item?id=23140780</a>
+<a href="https://news.ycombinator.com/item?id=23203699">https://news.ycombinator.com/item?id=23203699</a></p>
+<h2>Ray Tracing</h2>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Ray_tracing_(graphics)">https://en.wikipedia.org/wiki/Ray_tracing_(graphics)</a></li>
+<li><a href="https://news.ycombinator.com/item?id=22915213">https://news.ycombinator.com/item?id=22915213</a></li>
+<li><a href="https://github.com/RayTracing/raytracing.github.io">https://github.com/RayTracing/raytracing.github.io</a></li>
+<li><a href="https://news.ycombinator.com/item?id=23042993">https://news.ycombinator.com/item?id=23042993</a></li>
+</ul>
+<h2>Tutorials</h2>
+<ul>
+<li><a href="http://gameprogrammingpatterns.com/">Book on game programming patterns</a></li>
+</ul>
+<h2>Libraries</h2>
+<ul>
+<li>Havok/PhysX, physics library</li>
+<li>FMod/WWise, audio libraries</li>
+<li>Natural Motion, animation libraries</li>
+<li>Everything that RAD Game Tools offers, including audio/video codecs, compressors, animation libraries.</li>
+<li>Scaleform, animation libraries</li>
+<li>SpeedTree, tree modelling libraries</li>
+<li>Enlighten, lighting (global illumination) libraries</li>
+<li>Platform specific libraries</li>
+<li>NDA encumbered IHV libraries</li>
+</ul>
+<h2>Misc</h2>
+<ul>
+<li><a href="https://news.ycombinator.com/item?id=23079200">Point of WebGPU on Native</a></li>
+<li><a href="https://news.ycombinator.com/item?id=23202120">modern c++ gamedev - thoughts &amp; misconceptions</a></li>
+</ul>
+<p><a href="https://news.ycombinator.com/item?id=23591590">https://news.ycombinator.com/item?id=23591590</a>
+<a href="https://ciechanow.ski/lights-and-shadows/">https://ciechanow.ski/lights-and-shadows/</a>
+<a href="https://news.ycombinator.com/item?id=23863095">https://news.ycombinator.com/item?id=23863095</a>
+<a href="http://gameprogrammingpatterns.com/data-locality.html">http://gameprogrammingpatterns.com/data-locality.html</a>
+<a href="http://www.adriancourreges.com/blog/2015/11/02/gta-v-graphics-study/">http://www.adriancourreges.com/blog/2015/11/02/gta-v-graphics-study/</a></p>
+<p><a href="https://en.wikipedia.org/wiki/Entity_component_system">https://en.wikipedia.org/wiki/Entity_component_system</a>
+<a href="https://www.libsdl.org/">https://www.libsdl.org/</a>
+<a href="https://begriffs.com/posts/2020-08-31-portable-stable-software.html?hn=3">https://begriffs.com/posts/2020-08-31-portable-stable-software.html?hn=3</a>
+<a href="https://news.ycombinator.com/item?id=24276785">https://news.ycombinator.com/item?id=24276785</a>
+<a href="https://zeux.io/2020/02/27/writing-an-efficient-vulkan-renderer/">https://zeux.io/2020/02/27/writing-an-efficient-vulkan-renderer/</a>
+<a href="https://www.youtube.com/watch?list=PL0JVLUVCkk-l7CWCn3-cdftR0oajugYvd&amp;v=BR2my8OE1Sc&amp;app=desktop">https://www.youtube.com/watch?list=PL0JVLUVCkk-l7CWCn3-cdftR0oajugYvd&amp;v=BR2my8OE1Sc&amp;app=desktop</a></p>
+<p><a href="https://www.dimforge.com/blog/2020/08/25/announcing-the-rapier-physics-engine/#reaching-out-to-other-communities-bevy-and-javascript">https://www.dimforge.com/blog/2020/08/25/announcing-the-rapier-physics-engine/#reaching-out-to-other-communities-bevy-and-javascript</a>
+<a href="https://bevyengine.org/">https://bevyengine.org/</a>
+<a href="https://www.youtube.com/watch?v=DxfEbulyFcY">https://www.youtube.com/watch?v=DxfEbulyFcY</a>
+Doom eternal graphics study <a href="https://news.ycombinator.com/item?id=24401805">https://news.ycombinator.com/item?id=24401805</a>
+Doom 2016 graphic study <a href="http://www.adriancourreges.com/blog/2016/09/09/doom-2016-graphics-study/">http://www.adriancourreges.com/blog/2016/09/09/doom-2016-graphics-study/</a></p>
+<p>Good posts on games made <a href="https://fabiensanglard.net/">https://fabiensanglard.net/</a></p>
+<p><a href="https://www.fasterthan.life/blog/2017/6/25/there-are-no-gods">https://www.fasterthan.life/blog/2017/6/25/there-are-no-gods</a>
+<a href="https://renderdoc.org/">https://renderdoc.org/</a>
+<a href="http://vulkan.gpuinfo.org/">http://vulkan.gpuinfo.org/</a>
+<a href="https://gpuopen.com/">https://gpuopen.com/</a>
+<a href="https://www.glfw.org/">https://www.glfw.org/</a>
+<a href="https://www.youtube.com/watch?v=BR2my8OE1Sc&amp;app=desktop">https://www.youtube.com/watch?v=BR2my8OE1Sc&amp;app=desktop</a>
+<a href="https://www.fasterthan.life/blog/2017/7/11/i-am-graphics-and-so-can-you-part-1">https://www.fasterthan.life/blog/2017/7/11/i-am-graphics-and-so-can-you-part-1</a></p>
+<p><a href="https://www.youtube.com/watch?v=cWpFZbjtSQg">https://www.youtube.com/watch?v=cWpFZbjtSQg</a>
+<a href="https://news.ycombinator.com/item?id=24517824">https://news.ycombinator.com/item?id=24517824</a></p>
+<p><a href="https://news.ycombinator.com/item?id=24514061">https://news.ycombinator.com/item?id=24514061</a>
+<a href="https://news.ycombinator.com/item?id=24526145">https://news.ycombinator.com/item?id=24526145</a>
+<a href="https://news.ycombinator.com/item?id=24424462">https://news.ycombinator.com/item?id=24424462</a>
+<a href="https://jamesmcm.github.io/blog/2020/07/25/intro-dod/">https://jamesmcm.github.io/blog/2020/07/25/intro-dod/</a>
+<a href="https://wiki.alopex.li/AGuideToRustGraphicsLibraries2019">https://wiki.alopex.li/AGuideToRustGraphicsLibraries2019</a>
+<a href="https://www.glfw.org/">https://www.glfw.org/</a>
+<a href="https://www.youtube.com/watch?v=BR2my8OE1Sc&amp;app=desktop">https://www.youtube.com/watch?v=BR2my8OE1Sc&amp;app=desktop</a>
+fourier transform <a href="https://github.com/DTolm/VkFFT">https://github.com/DTolm/VkFFT</a>
+<a href="https://fabiensanglard.net/doom_psx/">https://fabiensanglard.net/doom_psx/</a>
+<a href="https://news.ycombinator.com/item?id=24610128">https://news.ycombinator.com/item?id=24610128</a>
+<a href="https://www.peterstefek.me/focused-render.html">https://www.peterstefek.me/focused-render.html</a>
+Sciter <a href="https://news.ycombinator.com/item?id=24786527">https://news.ycombinator.com/item?id=24786527</a></p>
+<p><a href="https://andreyorst.gitlab.io/posts/2020-10-15-raymarching-with-fennel-and-love/">https://andreyorst.gitlab.io/posts/2020-10-15-raymarching-with-fennel-and-love/</a>
+<a href="https://www.kuon.ch/post/">https://www.kuon.ch/post/</a></p>
+<p><a href="https://news.ycombinator.com/item?id=24983956">https://news.ycombinator.com/item?id=24983956</a></p>
+<p><a href="https://news.ycombinator.com/item?id=24990658">https://news.ycombinator.com/item?id=24990658</a></p>
+<p><a href="https://www.digitaltrends.com/computing/what-is-vsync/">https://www.digitaltrends.com/computing/what-is-vsync/</a></p>
+<p><code>https://paveldogreat.github.io/WebGL-Fluid-Simulation/</code></p>
+<p><a href="https://rust-gamedev.github.io/posts/newsletter-015/">https://rust-gamedev.github.io/posts/newsletter-015/</a></p>
+<p><a href="https://siliconsprawl.com/2020/11/06/simd-ray-tracer.html">https://siliconsprawl.com/2020/11/06/simd-ray-tracer.html</a></p>
+<p><a href="https://news.ycombinator.com/item?id=25044016">https://news.ycombinator.com/item?id=25044016</a></p>
+<p><a href="https://news.ycombinator.com/item?id=25037147">https://news.ycombinator.com/item?id=25037147</a></p>
+<p><a href="https://thefuntastic.com/blog/why-rust-is-the-future-game-dev">https://thefuntastic.com/blog/why-rust-is-the-future-game-dev</a>?</p>
+<p><a href="https://news.ycombinator.com/item?id=25045034">https://news.ycombinator.com/item?id=25045034</a></p>
+<p><a href="https://news.ycombinator.com/item?id=25079266">https://news.ycombinator.com/item?id=25079266</a></p>
+<p><a href="https://www.reddit.com/r/Unity3D/comments/jwytub/unity_procedural_growing_plant_generator_using/">https://www.reddit.com/r/Unity3D/comments/jwytub/unity_procedural_growing_plant_generator_using/</a></p>
+<p><a href="https://github.com/zeux/meshoptimizer">https://github.com/zeux/meshoptimizer</a></p>
+<p><a href="https://www.kuon.ch/post/2020-10-19-game-engine-project/">https://www.kuon.ch/post/2020-10-19-game-engine-project/</a></p>
+<p><a href="https://github.com/sebbbi/rust_test">https://github.com/sebbbi/rust_test</a></p>
+<p><a href="https://www.youtube.com/watch?v=FbSezz9QHgg">https://www.youtube.com/watch?v=FbSezz9QHgg</a></p>
+<p><a href="https://news.ycombinator.com/item?id=25158904">https://news.ycombinator.com/item?id=25158904</a></p>
+<p><a href="https://inference-review.com/article/the-man-who-carried-computer-science-on-his-shoulders">https://inference-review.com/article/the-man-who-carried-computer-science-on-his-shoulders</a></p>
+<p><a href="https://news.ycombinator.com/item?id=24906010">https://news.ycombinator.com/item?id=24906010</a></p>
+<p><a href="https://github.com/Lin20/BinaryMeshFitting">https://github.com/Lin20/BinaryMeshFitting</a></p>
+<p><a href="https://github.com/Lin20/PushingVoxelsForward">https://github.com/Lin20/PushingVoxelsForward</a></p>
+<p><a href="https://github.com/Lin20/BinaryMeshFitting">https://github.com/Lin20/BinaryMeshFitting</a></p>
+<p><a href="https://twitter.com/ProgrammerLin">https://twitter.com/ProgrammerLin</a></p>
+<p><a href="https://fgiesen.wordpress.com/2012/04/08/metaprogramming-for-madmen/">https://fgiesen.wordpress.com/2012/04/08/metaprogramming-for-madmen/</a></p>
+<p><a href="https://fgiesen.wordpress.com/2012/02/13/debris-opening-the-box/">https://fgiesen.wordpress.com/2012/02/13/debris-opening-the-box/</a></p>
+<p><a href="https://nanark.medium.com/a-pico-8-story-how-the-fantasy-console-unlocked-fr%C3%A9d%C3%A9ric-souchus-dreams-56bce77bcdc5">https://nanark.medium.com/a-pico-8-story-how-the-fantasy-console-unlocked-frédéric-souchus-dreams-56bce77bcdc5</a></p>
+<p><a href="https://news.ycombinator.com/item?id=25075296">https://news.ycombinator.com/item?id=25075296</a>
+<a href="https://playground.babylonjs.com/#M7MYT8#11">https://playground.babylonjs.com/#M7MYT8#11</a>
+<a href="https://babylonjs.medium.com/babylon-js-4-2-simplicity-reimagined-965f88d0fad">https://babylonjs.medium.com/babylon-js-4-2-simplicity-reimagined-965f88d0fad</a></p>
+<p><a href="https://news.ycombinator.com/item?id=24958762">https://news.ycombinator.com/item?id=24958762</a>
+<a href="https://news.ycombinator.com/item?id=24960108">https://news.ycombinator.com/item?id=24960108</a></p>
+<p><a href="https://twitter.com/VulkanAPI/status/1330874040190431233">https://twitter.com/VulkanAPI/status/1330874040190431233</a></p>
+<p><a href="https://news.ycombinator.com/item?id=25206707">https://news.ycombinator.com/item?id=25206707</a></p>
+<p><a href="https://diligentgraphics.com/diligent-engine/">https://diligentgraphics.com/diligent-engine/</a></p>
+<p><a href="https://news.ycombinator.com/item?id=25206707">https://news.ycombinator.com/item?id=25206707</a></p>
+<p><a href="https://news.ycombinator.com/item?id=25188542">https://news.ycombinator.com/item?id=25188542</a></p>
+<p><a href="https://news.ycombinator.com/item?id=25247715">https://news.ycombinator.com/item?id=25247715</a></p>
+<p><a href="https://www.twitch.tv/videos/816598400">https://www.twitch.tv/videos/816598400</a></p>
+<p><a href="https://news.ycombinator.com/item?id=25245206">https://news.ycombinator.com/item?id=25245206</a></p>
+<p><a href="https://news.ycombinator.com/item?id=25244301">https://news.ycombinator.com/item?id=25244301</a></p>
+<p><a href="https://www.youtube.com/watch?v=QyjyWUrHsFc">https://www.youtube.com/watch?v=QyjyWUrHsFc</a></p>
+<p><a href="https://www.amazon.com/Isosurfaces-Geometry-Algorithms-Rephael-Wenger/dp/1466570970">https://www.amazon.com/Isosurfaces-Geometry-Algorithms-Rephael-Wenger/dp/1466570970</a></p>
+<p><a href="https://www.youtube.com/watch?v=8--5LwHRhjk">https://www.youtube.com/watch?v=8--5LwHRhjk</a>
+<a href="https://www.youtube.com/watch?v=3UliJIkhkt4">https://www.youtube.com/watch?v=3UliJIkhkt4</a></p>
+<p><a href="https://nannou.cc/">https://nannou.cc/</a></p>
+<p><a href="https://pragprog.com/titles/jbmaze/mazes-for-programmers/">https://pragprog.com/titles/jbmaze/mazes-for-programmers/</a></p>
+<p><a href="https://pragprog.com/titles/jbtracer/the-ray-tracer-challenge/">https://pragprog.com/titles/jbtracer/the-ray-tracer-challenge/</a></p>
+<p><a href="https://nannou.cc/">https://nannou.cc/</a></p>
+<p><a href="https://news.ycombinator.com/item?id=25343356">https://news.ycombinator.com/item?id=25343356</a></p>
+<p><a href="https://news.ycombinator.com/item?id=25319394">https://news.ycombinator.com/item?id=25319394</a></p>
+<p>The Game UI Database, a comprehensive reference of game interface design
+<a href="https://news.ycombinator.com/item?id=25315524">https://news.ycombinator.com/item?id=25315524</a></p>
+<p><a href="https://www.reddit.com/r/Unity3D/comments/k3d6cj/testing_a_new_water_shader_for_my_game_quite/">https://www.reddit.com/r/Unity3D/comments/k3d6cj/testing_a_new_water_shader_for_my_game_quite/</a>
+<a href="https://news.ycombinator.com/item?id=25241361">https://news.ycombinator.com/item?id=25241361</a></p>
+<p><a href="https://www.youtube.com/watch?app=desktop&amp;v=9RHGLZLUuwc">https://www.youtube.com/watch?app=desktop&amp;v=9RHGLZLUuwc</a>
+<a href="https://github.com/Traverse-Research/gpu-allocator">https://github.com/Traverse-Research/gpu-allocator</a>
+<a href="https://news.ycombinator.com/item?id=25009373">https://news.ycombinator.com/item?id=25009373</a>
+<a href="https://asawicki.info/news_1735_a_better_way_to_scalarize_a_shader">https://asawicki.info/news_1735_a_better_way_to_scalarize_a_shader</a>
+<a href="https://news.ycombinator.com/item?id=24858172">https://news.ycombinator.com/item?id=24858172</a>
+<a href="https://news.ycombinator.com/item?id=24826854">https://news.ycombinator.com/item?id=24826854</a></p>
+<p>Fighting game like Brawl in cell block 99, the violence <a href="https://www.youtube.com/watch?v=XREDh_WZo2o">https://www.youtube.com/watch?v=XREDh_WZo2o</a></p>
+<ul>
+<li><a href="https://renderdoc.org/">https://renderdoc.org/</a></li>
+</ul>
+<p><a href="https://news.ycombinator.com/item?id=24773546">https://news.ycombinator.com/item?id=24773546</a></p>
+<p><a href="https://blog.eyas.sh/2020/10/unity-for-engineers-pt1-basic-concepts/">https://blog.eyas.sh/2020/10/unity-for-engineers-pt1-basic-concepts/</a></p>
+<p><a href="https://sidmeiersmemoir.com/">https://sidmeiersmemoir.com/</a></p>
+<ul>
+<li>Voxel game, only what is experienced, collapses the wave function, as such, only was is necessar is calculated, if the tree falls in the wood, does anyone hear it?</li>
+</ul>
+<p><a href="http://c0de517e.blogspot.com/2020/12/hallucinations-re-rendering-of.html">http://c0de517e.blogspot.com/2020/12/hallucinations-re-rendering-of.html</a></p>
+<p><a href="http://raytracerchallenge.com/">http://raytracerchallenge.com/</a></p>
+<p><a href="http://c0de517e.blogspot.com/2020/11/baking-realistic-renderer-from-scratch.html?m=1">http://c0de517e.blogspot.com/2020/11/baking-realistic-renderer-from-scratch.html?m=1</a></p>
+<p><a href="https://news.ycombinator.com/item?id=25460220">https://news.ycombinator.com/item?id=25460220</a></p>
+<p><a href="https://www.dropbox.com/s/9z7p6kg3utjzf7f/DD-Metaverse.pdf?dl=0">https://www.dropbox.com/s/9z7p6kg3utjzf7f/DD-Metaverse.pdf?dl=0</a></p>
+<ul>
+<li>
+<p><a href="https://news.ycombinator.com/item?id=25158904">Eight years at roblox</a></p>
+</li>
+<li>
+<p><a href="https://vulkan-tutorial.com/Overview">Vulcan Engine</a></p>
+</li>
+<li>
+<p><a href="https://github.com/paroj/gltut">Modern 3D Graphics Programming</a></p>
+</li>
+<li>
+<p><a href="https://ai.googleblog.com/2020/11/using-gans-to-create-fantastical.html">Using GANs to Create Fantastical Creatures</a></p>
+</li>
+<li>
+<p><a href="https://unity3d.com/">Unity</a></p>
+</li>
+<li>
+<p><a href="http://adobe.com/">Photoshop</a></p>
+</li>
+<li>
+<p><a href="http://esotericsoftware.com/">Spine</a></p>
+</li>
+<li>
+<p><a href="http://www.audacityteam.org/">Audacity</a></p>
+</li>
+<li>
+<p><a href="http://freesound.org/">Freesound</a></p>
+</li>
+<li>
+<p>Logic Pro</p>
+</li>
+<li>
+<p><a href="https://github.com/mxgmn/WaveFunctionCollapse">Bitmap &amp; tilemap generation from a single example with the help of ideas from quantum mechanics</a></p>
+</li>
+<li>
+<p><a href="http://johanneskopf.de/publications/pixelart">Depixeling Art</a></p>
+</li>
+<li>
+<p><a href="http://www.voxelmade.com/magicavoxel/">Voxel</a></p>
+</li>
+<li>
+<p><a href="https://github.com/WhitestormJS/whitestorm.js?utm_source=javascriptweekly&amp;utm_medium=email">https://github.com/WhitestormJS/whitestorm.js?utm_source=javascriptweekly&amp;utm_medium=email</a></p>
+</li>
+<li>
+<p><a href="http://www.alphabetagamer.com/">New alpha / beta games</a></p>
+</li>
+<li>
+<p><a href="http://screenshotdaily.com/">Curated list of screenshots</a></p>
+</li>
+<li>
+<p><a href="https://www.polygon.com">Game news</a></p>
+</li>
+<li>
+<p><a href="http://i.imgur.com/apjyd3T.gif">Cool art</a></p>
+</li>
+<li>
+<p><a href="http://nothings.org/gamedev/compositing_tree/">Compositing tree</a></p>
+</li>
+<li>
+<p><a href="www.youtube.com/watch?v=x_4Y2-B-THo">Building PvP focused MMO, how to structure code base</a></p>
+</li>
+<li>
+<p><a href="https://interplayoflight.wordpress.com/2017/10/25/how-unreal-renders-a-frame/">How Unreal renders a frame</a></p>
+</li>
+<li>
+<p><a href="https://news.ycombinator.com/item?id=15777592">Half-Life and Team Fortress Networking</a></p>
+</li>
+<li>
+<p><a href="https://arxiv.org/abs/1512.06808">Game Theory (Open Access textbook with 165 solved exercises)</a></p>
+</li>
+<li>
+<p><a href="https://nikoladimitroff.github.io/Game-Engine-Architecture/?ref=hvper.com">Game Engine Architecture Lectures</a></p>
+</li>
+<li>
+<p><a href="https://www.youtube.com/watch?v=gSjZT7QRJ_0">Finding art for your game</a></p>
+</li>
+<li>
+<p><a href="https://www.youtube.com/watch?v=o7KSbdIEA0U">Game development ideas</a></p>
+</li>
+<li>
+<p><a href="https://www.youtube.com/watch?v=3IW3kAGcLM0">Unity Game Development</a></p>
+</li>
+<li>
+<p><a href="https://www.youtube.com/watch?v=_DzsPrpPuAU">8 lessons</a></p>
+</li>
+<li>
+<p><a href="http://gameprogrammingpatterns.com/">Game Programming Patterns</a></p>
+</li>
+<li>
+<p><a href="https://itch.io/">Game Publish Platform</a></p>
+</li>
+<li>
+<p><a href="https://cs50.github.io/games/">Courses</a></p>
+</li>
+<li>
+<p><a href="https://www.youtube.com/watch?v=LNidsMesxSE&amp;app=desktop">Animation Bootcamp: An Indie Approach to Procedural Animation</a></p>
+</li>
+<li>
+<p><a href="https://www.youtube.com/watch?v=KLjTU0yKS00&amp;app=desktop">IK Rig: Procedural Pose Animation</a></p>
+</li>
+<li>
+<p><a href="https://www.youtube.com/watch?v=wbpMiKiSKm8&amp;app=desktop">Procedural Land mass generation</a></p>
+</li>
+<li>
+<p><a href="https://www.youtube.com/watch?v=B2Ut-LH8ai8">Core loops - Simple Game Design</a></p>
+</li>
+<li>
+<p><a href="https://www.youtube.com/watch?v=lZoQ9a7oPvo">How Celeste Teaches You Its Mechanics - Good Game Design</a></p>
+</li>
+<li>
+<p><a href="https://www.haroldserrano.com/blog/books-i-used-to-develop-a-game-engine">Books I had to read to develop a game engine</a></p>
+</li>
+<li>
+<p><a href="https://www.amazon.com/Ray-Tracing-Weekend-Minibooks-Book-ebook/dp/B01B5AODD8/ref=sr_1_1?ie=UTF8&amp;qid=1521122179&amp;sr=8-1&amp;keywords=raytracing+in+one+weekend">Ray Tracing in one Weekend</a></p>
+</li>
+<li>
+<p><a href="https://www.youtube.com/watch?v=QN39W020LqU">Procedural Planets</a></p>
+</li>
+<li>
+<p><a href="https://news.ycombinator.com/item?id=21771022">Twine is an open-source tool for telling interactive, nonlinear stories</a></p>
+</li>
+<li>
+<p><a href="https://www.inklestudios.com/ink/">The powerful scripting language behind</a></p>
+</li>
+</ul>
+<p><a href="https://hacknplan.com/#pricing">https://hacknplan.com/#pricing</a></p>
+<p><a href="https://twitter.com/volgaksoy/status/1341120835705159681/photo/1">https://twitter.com/volgaksoy/status/1341120835705159681/photo/1</a></p>
+<p><a href="https://news.ycombinator.com/item?id=25493692">https://news.ycombinator.com/item?id=25493692</a>
+<a href="http://advsys.net/ken/voxlap.htm">http://advsys.net/ken/voxlap.htm</a>
+<a href="https://stackoverflow.com/questions/3794306/can-someone-describe-the-algorithm-used-by-ken-silvermans-voxlap-engine">https://stackoverflow.com/questions/3794306/can-someone-describe-the-algorithm-used-by-ken-silvermans-voxlap-engine</a>
+<a href="http://advsys.net/ken/voxlap/voxlap05.htm">http://advsys.net/ken/voxlap/voxlap05.htm</a>
+<a href="https://twitter.com/angealbertini/status/1340712669247119360">https://twitter.com/angealbertini/status/1340712669247119360</a></p>
+<p><a href="https://bevyengine.org/">https://bevyengine.org/</a>
+<a href="https://www.gamingonlinux.com/articles/developed-in-rust-the-open-world-and-open-source-voxel-rpg-veloren-has-a-big-new-release.15917">https://www.gamingonlinux.com/articles/developed-in-rust-the-open-world-and-open-source-voxel-rpg-veloren-has-a-big-new-release.15917</a>
+<a href="https://arewegameyet.rs/">https://arewegameyet.rs/</a>
+<a href="https://www.lewisclement.nl/postponum-voxel-game/">https://www.lewisclement.nl/postponum-voxel-game/</a>
+<a href="https://vulkan-tutorial.com/">https://vulkan-tutorial.com/</a>
+<a href="https://rust-gamedev.github.io/posts/newsletter-008/">https://rust-gamedev.github.io/posts/newsletter-008/</a>
+<a href="https://rust-gamedev.github.io/posts/newsletter-002/">https://rust-gamedev.github.io/posts/newsletter-002/</a>
+<a href="https://amethyst.rs/">https://amethyst.rs/</a>
+<a href="https://www.reddit.com/r/rust/comments/dpa3ar/wip_rendering_engine/">https://www.reddit.com/r/rust/comments/dpa3ar/wip_rendering_engine/</a>
+<a href="https://github.com/ifl0w/VEO-Rust">https://github.com/ifl0w/VEO-Rust</a>
+<a href="http://raytracerchallenge.com/">http://raytracerchallenge.com/</a>
+<a href="https://www.realtimerendering.com/raytracinggems/">https://www.realtimerendering.com/raytracinggems/</a>
+<a href="https://news.developer.nvidia.com/ray-tracing-essentials-part-1-basics-of-ray-tracing/">https://news.developer.nvidia.com/ray-tracing-essentials-part-1-basics-of-ray-tracing/</a>
+<a href="https://www.reddit.com/r/VoxelGameDev/comments/cmsu9a/raytraced_voxel_engine/">https://www.reddit.com/r/VoxelGameDev/comments/cmsu9a/raytraced_voxel_engine/</a>
+<a href="https://raytracing.github.io/books/RayTracingInOneWeekend.html">https://raytracing.github.io/books/RayTracingInOneWeekend.html</a></p>
+<p><a href="https://paroj.github.io/gltut/About%20this%20Book.html">https://paroj.github.io/gltut/About this Book.html</a>
+<a href="https://www.fasterthan.life/blog/2017/7/11/i-am-graphics-and-so-can-you-part-1">https://www.fasterthan.life/blog/2017/7/11/i-am-graphics-and-so-can-you-part-1</a>
+<a href="https://github.com/RayTracing/raytracing.github.io">https://github.com/RayTracing/raytracing.github.io</a></p>
+<p><a href="https://macoy.me/blog/programming/CakelispIntro">https://macoy.me/blog/programming/CakelispIntro</a>
+<a href="https://news.ycombinator.com/item?id=25489879">https://news.ycombinator.com/item?id=25489879</a></p>
+<p><a href="https://news.ycombinator.com/item?id=25476545">https://news.ycombinator.com/item?id=25476545</a>
+<a href="https://news.ycombinator.com/item?id=25455291">https://news.ycombinator.com/item?id=25455291</a></p>
+<p><a href="https://www.google.com/search?kgmid=/g/11dymxhd_p&amp;hl=en-IN&amp;q=Modeling+Life:+The+Mathematics+of+Biological+Systems&amp;kgs=8009c0f26ee7f417&amp;shndl=0&amp;source=sh/x/kp/osrp&amp;entrypoint=sh/x/kp/osrp">https://www.google.com/search?kgmid=/g/11dymxhd_p&amp;hl=en-IN&amp;q=Modeling+Life:+The+Mathematics+of+Biological+Systems&amp;kgs=8009c0f26ee7f417&amp;shndl=0&amp;source=sh/x/kp/osrp&amp;entrypoint=sh/x/kp/osrp</a></p>
+<p><a href="https://news.ycombinator.com/item?id=25557354">https://news.ycombinator.com/item?id=25557354</a>
+<a href="https://news.ycombinator.com/item?id=25557354">https://news.ycombinator.com/item?id=25557354</a>
+<a href="https://en.wikipedia.org/wiki/Data-oriented_design">https://en.wikipedia.org/wiki/Data-oriented_design</a>
+<a href="https://github.com/BSVino/JaiPrimer/blob/master/JaiPrimer.md#:~:text=Jai%20is%20a%20high%2Dlevel,Jai%20in%20late%20September%202014">https://github.com/BSVino/JaiPrimer/blob/master/JaiPrimer.md#:~:text=Jai is a high-level,Jai in late September 2014</a>.
+<a href="https://www.google.com/search?q=path+tracing&amp;oq=path+tracing&amp;aqs=chrome..69i57j0l6j69i61.3073j0j7&amp;sourceid=chrome&amp;ie=UTF-8">https://www.google.com/search?q=path+tracing&amp;oq=path+tracing&amp;aqs=chrome..69i57j0l6j69i61.3073j0j7&amp;sourceid=chrome&amp;ie=UTF-8</a>
+<a href="https://en.wikipedia.org/wiki/Physically_based_rendering">https://en.wikipedia.org/wiki/Physically_based_rendering</a>
+<a href="https://github.com/hypernewbie/VEFontCache">https://github.com/hypernewbie/VEFontCache</a>
+<a href="https://news.ycombinator.com/item?id=25675249">https://news.ycombinator.com/item?id=25675249</a></p>
+<p><a href="https://www.youtube.com/watch?app=desktop&amp;v=LAsnQoBUG4Q">https://www.youtube.com/watch?app=desktop&amp;v=LAsnQoBUG4Q</a>
+<a href="https://github.com/giordi91/SirEngineThe3rd">https://github.com/giordi91/SirEngineThe3rd</a>
+<a href="https://bartwronski.com/2020/12/27/why-are-video-games-graphics-still-a-challenge-productionizing-rendering-algorithms/amp/?__twitter_impression=true">https://bartwronski.com/2020/12/27/why-are-video-games-graphics-still-a-challenge-productionizing-rendering-algorithms/amp/?__twitter_impression=true</a>
+<a href="http://c0de517e.blogspot.com/2020/12/why-raytracing-wont-simplify-aaa-real.html?m=1">http://c0de517e.blogspot.com/2020/12/why-raytracing-wont-simplify-aaa-real.html?m=1</a>
+<a href="https://vulkan-tutorial.com/">https://vulkan-tutorial.com/</a></p>
+<p><a href="https://raytracing.github.io/books/RayTracingInOneWeekend.html">https://raytracing.github.io/books/RayTracingInOneWeekend.html</a>
+<a href="https://surma.dev/things/ditherpunk/">https://surma.dev/things/ditherpunk/</a></p>
+<ul>
+<li><a href="https://gamephysicsweekend.github.io/">https://gamephysicsweekend.github.io/</a></li>
+<li><a href="https://raytracing.github.io/">https://raytracing.github.io/</a></li>
+</ul>
+<p><a href="https://iquilezles.org/www/articles/raymarchingdf/raymarchingdf.htm">https://iquilezles.org/www/articles/raymarchingdf/raymarchingdf.htm</a>
+<a href="https://iquilezles.org/index.html">https://iquilezles.org/index.html</a>
+<a href="https://gist.github.com/silvesthu/505cf0cbf284bb4b971f6834b8fec93d">https://gist.github.com/silvesthu/505cf0cbf284bb4b971f6834b8fec93d</a>
+<a href="https://gist.github.com/silvesthu/505cf0cbf284bb4b971f6834b8fec93d">https://gist.github.com/silvesthu/505cf0cbf284bb4b971f6834b8fec93d</a>
+<a href="https://twitter.com/AlanZucconi/status/1347958087081201666">https://twitter.com/AlanZucconi/status/1347958087081201666</a>
+<a href="https://www.youtube.com/watch?v=1R5WFZk86kE">https://www.youtube.com/watch?v=1R5WFZk86kE</a></p>
+<p><a href="https://iquilezles.org/index.html">https://iquilezles.org/index.html</a></p>
+<ul>
+<li><a href="http://raytracerchallenge.com/">http://raytracerchallenge.com/</a></li>
+</ul>
+
+        </div>
+      </div>
+    </main>
+  
+        <script defer src="/assets/js/index.js"></script>
+        <script defer src="/assets/js/prism.min.js"></script>
+      </body>
+    </html>
+  

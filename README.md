@@ -1,3 +1,2 @@
 # voxengine
 
-- http://raytracerchallenge.com/
